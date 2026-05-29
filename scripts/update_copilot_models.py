@@ -30,6 +30,7 @@ except ImportError:
 DOCS_URL = "https://docs.github.com/en/copilot/reference/ai-models/supported-models"
 SOURCE_URL = "https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/ai-models/supported-models#supported-ai-models-in-copilot"
 OUTPUT_FILE = "copilot_models.json"
+COMPACT_OUTPUT_FILE = "copilot_models.compact.json"
 REQUEST_TIMEOUT = 30
 MAX_RETRIES = 3
 
@@ -425,19 +426,46 @@ def has_content_changed(new_data: Dict[str, Any], output_path: str) -> bool:
         return True
 
 
-def write_json_file(data: Dict[str, Any], output_path: str) -> None:
+def get_compact_output_path(output_path: str, compact_output_path: Optional[str]) -> str:
     """
-    Write JSON data to file with proper formatting.
-    
+    Get the compact JSON output path.
+
+    Args:
+        output_path: Pretty-printed JSON output path
+        compact_output_path: Explicit compact JSON output path, if provided
+
+    Returns:
+        Compact JSON output path
+    """
+    if compact_output_path:
+        return compact_output_path
+
+    if output_path == OUTPUT_FILE:
+        return COMPACT_OUTPUT_FILE
+
+    root, ext = os.path.splitext(output_path)
+    if ext:
+        return f"{root}.compact{ext}"
+    return f"{output_path}.compact"
+
+
+def write_json_file(data: Dict[str, Any], output_path: str, *, compact: bool = False) -> None:
+    """
+    Write JSON data to file.
+
     Args:
         data: JSON data to write
         output_path: Output file path
+        compact: Whether to omit formatting whitespace
     """
     logger.info(f"Writing JSON to: {output_path}")
     
     with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write('\n')  # Add trailing newline
+        if compact:
+            json.dump(data, f, separators=(',', ':'), ensure_ascii=False)
+        else:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+            f.write('\n')  # Add trailing newline for the human-readable file
     
     logger.info(f"Successfully wrote {len(data['models'])} models to {output_path}")
 
@@ -456,6 +484,11 @@ def main() -> int:
         '--output',
         default=OUTPUT_FILE,
         help=f'Output JSON file path (default: {OUTPUT_FILE})'
+    )
+    parser.add_argument(
+        '--compact-output',
+        default=None,
+        help=f'Compact output JSON file path (default: {COMPACT_OUTPUT_FILE}, or <output>.compact.<ext> when --output is customized)'
     )
     parser.add_argument(
         '--force',
@@ -477,6 +510,8 @@ def main() -> int:
     
     if args.verbose:
         logger.setLevel(logging.DEBUG)
+
+    compact_output = get_compact_output_path(args.output, args.compact_output)
     
     try:
         # Create session with retry logic
@@ -502,16 +537,19 @@ def main() -> int:
         
         # Check if content changed
         if not args.force and not args.dry_run:
-            if not has_content_changed(json_data, args.output):
+            output_changed = has_content_changed(json_data, args.output)
+            compact_output_changed = has_content_changed(json_data, compact_output)
+            if not output_changed and not compact_output_changed:
                 logger.info("No changes detected, skipping file write")
                 return 0
         
         # Write output
         if args.dry_run:
-            logger.info("Dry run mode - would write:")
+            logger.info(f"Dry run mode - would write {args.output} and {compact_output}:")
             print(json.dumps(json_data, indent=2))
         else:
             write_json_file(json_data, args.output)
+            write_json_file(json_data, compact_output, compact=True)
         
         logger.info("Update completed successfully")
         return 0
