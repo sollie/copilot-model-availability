@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T03:25:39.322325+00:00",
+  "generated_at": "2026-08-11T19:33:07.956831+00:00",
   "source_url": "https://docs.github.com/en/enterprise-cloud@latest/copilot/reference/ai-models/supported-models#supported-ai-models-in-copilot",
   "models": [
     {
@@ -8,7 +8,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.321962+00:00"
+      "last_seen": "2026-08-11T19:33:07.956429+00:00"
     },
     {
       "name": "GPT-5.3-Codex",
@@ -16,7 +16,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.321996+00:00"
+      "last_seen": "2026-08-11T19:33:07.956466+00:00"
     },
     {
       "name": "GPT-5.4",
@@ -24,7 +24,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322000+00:00"
+      "last_seen": "2026-08-11T19:33:07.956471+00:00"
     },
     {
       "name": "GPT-5.4 mini",
@@ -32,7 +32,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322004+00:00"
+      "last_seen": "2026-08-11T19:33:07.956476+00:00"
     },
     {
       "name": "GPT-5.4 nano1",
@@ -40,7 +40,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322006+00:00"
+      "last_seen": "2026-08-11T19:33:07.956480+00:00"
     },
     {
       "name": "GPT-5.5",
@@ -48,7 +48,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322011+00:00"
+      "last_seen": "2026-08-11T19:33:07.956492+00:00"
     },
     {
       "name": "GPT-5.6 Luna",
@@ -56,7 +56,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322021+00:00"
+      "last_seen": "2026-08-11T19:33:07.956497+00:00"
     },
     {
       "name": "GPT-5.6 Sol",
@@ -64,7 +64,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322032+00:00"
+      "last_seen": "2026-08-11T19:33:07.956509+00:00"
     },
     {
       "name": "GPT-5.6 Terra",
@@ -72,7 +72,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322039+00:00"
+      "last_seen": "2026-08-11T19:33:07.956515+00:00"
     },
     {
       "name": "Claude Fable 52",
@@ -80,7 +80,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322043+00:00"
+      "last_seen": "2026-08-11T19:33:07.956519+00:00"
     },
     {
       "name": "Claude Haiku 4.5",
@@ -88,7 +88,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322048+00:00"
+      "last_seen": "2026-08-11T19:33:07.956526+00:00"
     },
     {
       "name": "Claude Opus 4.5",
@@ -104,7 +104,7 @@
       "notes": [
         "Retired: 2026-09-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322053+00:00"
+      "last_seen": "2026-08-11T19:33:07.956531+00:00"
     },
     {
       "name": "Claude Opus 4.6",
@@ -120,7 +120,7 @@
       "notes": [
         "Retired: 2026-09-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322058+00:00"
+      "last_seen": "2026-08-11T19:33:07.956536+00:00"
     },
     {
       "name": "Claude Opus 4.7",
@@ -128,7 +128,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322063+00:00"
+      "last_seen": "2026-08-11T19:33:07.956540+00:00"
     },
     {
       "name": "Claude Opus 4.8",
@@ -136,7 +136,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322072+00:00"
+      "last_seen": "2026-08-11T19:33:07.956543+00:00"
     },
     {
       "name": "Claude Opus 4.8 (fast mode) (preview)",
@@ -144,7 +144,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322076+00:00"
+      "last_seen": "2026-08-11T19:33:07.956548+00:00"
     },
     {
       "name": "Claude Opus 5",
@@ -152,7 +152,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322080+00:00"
+      "last_seen": "2026-08-11T19:33:07.956551+00:00"
     },
     {
       "name": "Claude Sonnet 4.5",
@@ -168,7 +168,7 @@
       "notes": [
         "Retired: 2026-09-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322085+00:00"
+      "last_seen": "2026-08-11T19:33:07.956555+00:00"
     },
     {
       "name": "Claude Sonnet 4.6",
@@ -176,7 +176,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322090+00:00"
+      "last_seen": "2026-08-11T19:33:07.956559+00:00"
     },
     {
       "name": "Claude Sonnet 5",
@@ -184,7 +184,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322094+00:00"
+      "last_seen": "2026-08-11T19:33:07.956562+00:00"
     },
     {
       "name": "Gemini 3.1 Pro",
@@ -200,7 +200,7 @@
       "notes": [
         "Retired: 2026-09-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322101+00:00"
+      "last_seen": "2026-08-11T19:33:07.956566+00:00"
     },
     {
       "name": "Gemini 3.5 Flash",
@@ -208,7 +208,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322105+00:00"
+      "last_seen": "2026-08-11T19:33:07.956582+00:00"
     },
     {
       "name": "Gemini 3.6 Flash",
@@ -216,7 +216,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322109+00:00"
+      "last_seen": "2026-08-11T19:33:07.956586+00:00"
     },
     {
       "name": "MAI-Code-1-Flash3",
@@ -224,7 +224,15 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322113+00:00"
+      "last_seen": "2026-08-11T19:33:07.956590+00:00"
+    },
+    {
+      "name": "MAI-Code-1.1-Flash",
+      "provider": "Microsoft",
+      "availability": {
+        "release_status": "GA"
+      },
+      "last_seen": "2026-08-11T19:33:07.956596+00:00"
     },
     {
       "name": "Raptor mini",
@@ -240,7 +248,7 @@
       "notes": [
         "Retired: 2026-09-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322117+00:00"
+      "last_seen": "2026-08-11T19:33:07.956600+00:00"
     },
     {
       "name": "Kimi K2.7 Code",
@@ -248,7 +256,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322122+00:00"
+      "last_seen": "2026-08-11T19:33:07.956605+00:00"
     },
     {
       "name": "Kimi K3",
@@ -256,7 +264,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322126+00:00"
+      "last_seen": "2026-08-11T19:33:07.956610+00:00"
     },
     {
       "name": "Grok 4.5",
@@ -264,7 +272,7 @@
       "availability": {
         "release_status": "GA"
       },
-      "last_seen": "2026-08-07T03:25:39.322131+00:00"
+      "last_seen": "2026-08-11T19:33:07.956614+00:00"
     },
     {
       "name": "Claude Sonnet 4.64",
@@ -279,7 +287,7 @@
       "notes": [
         "Retired: 2026-09-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322149+00:00"
+      "last_seen": "2026-08-11T19:33:07.956631+00:00"
     },
     {
       "name": "Gemini 2.5 Pro",
@@ -294,7 +302,7 @@
       "notes": [
         "Retired: 2026-07-31"
       ],
-      "last_seen": "2026-08-07T03:25:39.322158+00:00"
+      "last_seen": "2026-08-11T19:33:07.956645+00:00"
     },
     {
       "name": "Gemini 3 Flash",
@@ -309,7 +317,7 @@
       "notes": [
         "Retired: 2026-07-31"
       ],
-      "last_seen": "2026-08-07T03:25:39.322162+00:00"
+      "last_seen": "2026-08-11T19:33:07.956650+00:00"
     },
     {
       "name": "Claude Opus 4.6 (fast mode) (preview)",
@@ -324,7 +332,7 @@
       "notes": [
         "Retired: 2026-06-29"
       ],
-      "last_seen": "2026-08-07T03:25:39.322165+00:00"
+      "last_seen": "2026-08-11T19:33:07.956656+00:00"
     },
     {
       "name": "GPT-4.1",
@@ -339,7 +347,7 @@
       "notes": [
         "Retired: 2026-06-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322169+00:00"
+      "last_seen": "2026-08-11T19:33:07.956662+00:00"
     },
     {
       "name": "GPT-5.2",
@@ -354,7 +362,7 @@
       "notes": [
         "Retired: 2026-06-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322173+00:00"
+      "last_seen": "2026-08-11T19:33:07.956668+00:00"
     },
     {
       "name": "GPT-5.2-Codex",
@@ -369,7 +377,7 @@
       "notes": [
         "Retired: 2026-06-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322177+00:00"
+      "last_seen": "2026-08-11T19:33:07.956674+00:00"
     },
     {
       "name": "Grok Code Fast 1",
@@ -384,7 +392,7 @@
       "notes": [
         "Retired: 2026-05-15"
       ],
-      "last_seen": "2026-08-07T03:25:39.322181+00:00"
+      "last_seen": "2026-08-11T19:33:07.956679+00:00"
     },
     {
       "name": "Claude Sonnet 4",
@@ -399,7 +407,7 @@
       "notes": [
         "Retired: 2026-05-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322188+00:00"
+      "last_seen": "2026-08-11T19:33:07.956685+00:00"
     },
     {
       "name": "GPT-5.1",
@@ -414,7 +422,7 @@
       "notes": [
         "Retired: 2026-04-15"
       ],
-      "last_seen": "2026-08-07T03:25:39.322192+00:00"
+      "last_seen": "2026-08-11T19:33:07.956690+00:00"
     },
     {
       "name": "GPT-5.1-Codex",
@@ -429,7 +437,7 @@
       "notes": [
         "Retired: 2026-04-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322198+00:00"
+      "last_seen": "2026-08-11T19:33:07.956696+00:00"
     },
     {
       "name": "GPT-5.1-Codex-Max",
@@ -444,7 +452,7 @@
       "notes": [
         "Retired: 2026-04-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322205+00:00"
+      "last_seen": "2026-08-11T19:33:07.956702+00:00"
     },
     {
       "name": "GPT-5.1-Codex-Mini",
@@ -459,7 +467,7 @@
       "notes": [
         "Retired: 2026-04-01"
       ],
-      "last_seen": "2026-08-07T03:25:39.322209+00:00"
+      "last_seen": "2026-08-11T19:33:07.956707+00:00"
     },
     {
       "name": "Gemini 3 Pro",
@@ -474,7 +482,7 @@
       "notes": [
         "Retired: 2026-03-26"
       ],
-      "last_seen": "2026-08-07T03:25:39.322214+00:00"
+      "last_seen": "2026-08-11T19:33:07.956713+00:00"
     },
     {
       "name": "Claude Opus 4.1",
@@ -489,7 +497,7 @@
       "notes": [
         "Retired: 2026-02-17"
       ],
-      "last_seen": "2026-08-07T03:25:39.322219+00:00"
+      "last_seen": "2026-08-11T19:33:07.956718+00:00"
     },
     {
       "name": "GPT-5",
@@ -504,7 +512,7 @@
       "notes": [
         "Retired: 2026-02-17"
       ],
-      "last_seen": "2026-08-07T03:25:39.322223+00:00"
+      "last_seen": "2026-08-11T19:33:07.956733+00:00"
     },
     {
       "name": "GPT-5-Codex",
@@ -519,7 +527,7 @@
       "notes": [
         "Retired: 2026-02-17"
       ],
-      "last_seen": "2026-08-07T03:25:39.322227+00:00"
+      "last_seen": "2026-08-11T19:33:07.956738+00:00"
     },
     {
       "name": "Claude Sonnet 3.5",
@@ -534,7 +542,7 @@
       "notes": [
         "Retired: 2025-11-06"
       ],
-      "last_seen": "2026-08-07T03:25:39.322231+00:00"
+      "last_seen": "2026-08-11T19:33:07.956744+00:00"
     },
     {
       "name": "Claude Opus 4",
@@ -549,7 +557,7 @@
       "notes": [
         "Retired: 2025-10-23"
       ],
-      "last_seen": "2026-08-07T03:25:39.322236+00:00"
+      "last_seen": "2026-08-11T19:33:07.956748+00:00"
     },
     {
       "name": "Claude Sonnet 3.7",
@@ -564,7 +572,7 @@
       "notes": [
         "Retired: 2025-10-23"
       ],
-      "last_seen": "2026-08-07T03:25:39.322242+00:00"
+      "last_seen": "2026-08-11T19:33:07.956754+00:00"
     },
     {
       "name": "Claude Sonnet 3.7 Thinking",
@@ -579,7 +587,7 @@
       "notes": [
         "Retired: 2025-10-23"
       ],
-      "last_seen": "2026-08-07T03:25:39.322246+00:00"
+      "last_seen": "2026-08-11T19:33:07.956757+00:00"
     },
     {
       "name": "Gemini 2.0 Flash",
@@ -594,7 +602,7 @@
       "notes": [
         "Retired: 2025-10-23"
       ],
-      "last_seen": "2026-08-07T03:25:39.322251+00:00"
+      "last_seen": "2026-08-11T19:33:07.956761+00:00"
     },
     {
       "name": "o1-mini",
@@ -609,7 +617,7 @@
       "notes": [
         "Retired: 2025-10-23"
       ],
-      "last_seen": "2026-08-07T03:25:39.322255+00:00"
+      "last_seen": "2026-08-11T19:33:07.956765+00:00"
     },
     {
       "name": "o3",
@@ -624,7 +632,7 @@
       "notes": [
         "Retired: 2025-10-23"
       ],
-      "last_seen": "2026-08-07T03:25:39.322259+00:00"
+      "last_seen": "2026-08-11T19:33:07.956769+00:00"
     },
     {
       "name": "o3-mini",
@@ -639,7 +647,7 @@
       "notes": [
         "Retired: 2025-10-23"
       ],
-      "last_seen": "2026-08-07T03:25:39.322266+00:00"
+      "last_seen": "2026-08-11T19:33:07.956773+00:00"
     },
     {
       "name": "o4-mini",
@@ -654,7 +662,7 @@
       "notes": [
         "Retired: 2025-10-23"
       ],
-      "last_seen": "2026-08-07T03:25:39.322271+00:00"
+      "last_seen": "2026-08-11T19:33:07.956777+00:00"
     }
   ]
 }
